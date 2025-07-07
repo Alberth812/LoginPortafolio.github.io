@@ -16,8 +16,8 @@ Inicio
 Sobre mí
 Proyectos
 Contacto
-Login.html: solo es un formulario de login/registro.
 
+Login.html: solo es un formulario de login/registro.
 Plantilla utilizada
 El proyecto utiliza la plantilla "Start Bootstrap Grayscale" para la página principal (index.html), que es un tema moderno y responsivo basado en Bootstrap.
 Para el login, se usa Bootstrap 5 y estilos personalizados, pero no una plantilla específica de login, sino un diseño propio con Bootstrap.
@@ -49,7 +49,7 @@ Se usa el atributo HTML type="email" en el input, lo que valida automáticamente
 El atributo required obliga a que el campo no esté vacío antes de enviar el formulario.
 Contraseña:
 El campo de contraseña también tiene el atributo required, por lo que no puede estar vacío.
-No hay validaciones adicionales en el frontend para la fortaleza de la contraseña ni para comparar que ambas contraseñas coincidan (esto se podría agregar si lo deseas).
+
 
 En el formulario de contacto (index.html)
 Correo electrónico:
