@@ -5,22 +5,24 @@ Portafolio web con login
 
 Para el siguiente trabajo de programacion web elaboramos un portafolio web a partir de una plantilla, sin embargo debiamos complementar elementos y crear nuevos con los conocimientos previamente adquiridos en trabajos anteriores y lo aprendido en clase.
 
-Descripcion de proyecto.
 
+link de descarga de la plantilla utilizada: https://startbootstrap.com/theme/grayscale
+
+
+Descripcion de proyecto:
 El proyecto es un portafolio web personal con un sistema de inicio de sesión. Incluye una página principal de login (Login.html) donde los usuarios pueden iniciar sesión o registrarse, asl iniciar sesion nos redirecciona a la pagina (index.html) que muestra información sobre mi, habilidades, proyectos y un formulario de contacto. El diseño utiliza Bootstrap para la apariencia responsiva y moderna, e integra imágenes y logos almacenados en la carpeta assets/img/.
 
 Menús que la componen
 
-Inicio
-
+Inicio:
 Es el encabezado principal de la página.
 Contiene el título "Mi Portafolio", un subtítulo y un botón "Get Started" que lleva a la sección "Sobre mí".
 Sobre mí
 
-Sección con información personal.
+Sección con información personal:
 Incluye una tarjeta con foto de perfil, nombre, escolaridad, pasatiempos y una breve descripción personal.
-Proyectos
 
+Proyectos:
 Muestra los proyectos realizados.
 Cada proyecto tiene:
 Una imagen representativa.
@@ -40,6 +42,11 @@ Correo electrónico.
 Teléfono.
 Enlaces a redes sociales (Twitter, Facebook, GitHub).
 
+Metodo de validacion:
+Correo electrónico de contacto:
+El input tiene type="email" y required, lo que valida que el usuario escriba un correo válido y que el campo no esté vacío.
+Además, hay mensajes personalizados de error usando Bootstrap (data-sb-validations="required,email" y mensajes en <div class="invalid-feedback">).
+En el script personalizado, también se valida que el correo contenga un @ antes de mostrar el mensaje de éxito.
 
 Capturas de previsualizacion:
 
