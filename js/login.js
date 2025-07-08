@@ -1,6 +1,3 @@
-// login.js
-// Funciones de login, registro y redirección extraídas de index.html
-
 document.addEventListener('DOMContentLoaded', function() {
   // Mostrar formulario de registro
   document.getElementById('showRegister').addEventListener('click', function(e) {
@@ -41,3 +38,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 2000);
   });
 });
+
